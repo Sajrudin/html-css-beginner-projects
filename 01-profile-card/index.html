@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #ecf0f9;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 1.1rem;
+      }
+
+      .profile-card {
+        width: 28rem;
+        min-height: 38rem;
+        margin: 1rem auto;
+        padding: 0.5rem;
+
+        background-color: #ffffff;
+        border: 2px solid #eee;
+        border-radius: 1.1rem;
+        overflow: hidden;
+
+        position: relative;
+        text-align: center;
+      }
+
+      .profile-banner {
+        height: 160px;
+        background-color: #dfe9fb;
+        border-radius: 0.8rem;
+      }
+
+      .profile-image-container {
+        position: absolute;
+        top: 160px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .profile-image {
+        width: 140px;
+        height: 140px;
+
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 0;
+        border: 6px solid white;
+      }
+
+      .profile-header {
+        margin-top: 75px;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 6px;
+      }
+
+      h2 {
+        font-size: 1.35rem;
+        color: #2364de;
+        margin-bottom: 6px;
+      }
+
+      section {
+        font-size: 1rem;
+        text-align: center;
+        padding: 8px;
+        margin-bottom: 6px;
+      }
+
+      .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 0.8rem;
+      }
+
+      .logo-circle {
+        width: 52px;
+        height: 52px;
+
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 8px;
+      }
+
+      .logo-circle img {
+        width: 26px;
+        height: 26px;
+        object-fit: contain;
+      }
+
+      .profile-details {
+        margin-top: 1.2rem;
+      }
+
+      .detail-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 0.75rem 0;
+
+        border-top: 2px solid #e5e5e5;
+      }
+
+      .label {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+
+      .label i {
+        color: royalblue;
+        font-size: 1.1rem;
+      }
+
+      .label span {
+        font-weight: 600;
+      }
+
+      .detail-value {
+        color: #555;
+      }
+
+      .resume-download {
+        background-color: #2766da;
+        height: 2.3rem;
+        margin: 12px auto;
+        border-radius: 0.5rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .resume-download a {
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="profile-card">
+      <div class="profile-banner"></div>
+
+      <figure class="profile-image-container">
+        <img
+          class="profile-image"
+          src="asserts/MyImage.jpg"
+          alt="Profile Image"
+        />
+      </figure>
+
+      <header class="profile-header">
+        <h1>Sajrudin Aalam</h1>
+        <h2>Frontend Developer</h2>
+
+        <section>
+          <p>
+            Passionate frontend developer who loves building beautiful and
+            user-friendly web applications.
+          </p>
+        </section>
+
+        <nav class="social-links">
+          <a href="https://github.com/Sajrudin" target="_blank" class="logo-circle">
+            <img src="asserts/Git.png" alt="Github" />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sajrudin-aalam-21b861287/" target="blank"
+            class="logo-circle"
+          >
+            <img src="asserts/linkedin.png" target="blank" alt="LinkedIn" />
+          </a>
+
+          <a href="https://x.com/" target="blank" class="logo-circle"> 
+            <img src="asserts/twitter.png" alt="Twitter" />
+          </a>
+
+          <a href="https://mail.google.com/mail/u/0/#inbox" class="logo-circle">
+            <img src="asserts/gmail.png" alt="Gmail" />
+          </a>
+        </nav>
+      </header>
+
+      <main class="profile-details">
+        <div class="detail-row">
+          <div class="label">
+            <i class="fa-solid fa-calendar"></i>
+            <span>Age</span>
+          </div>
+
+          <div class="detail-value">22</div>
+        </div>
+
+        <div class="detail-row">
+          <div class="label">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Location</span>
+          </div>
+
+          <div class="detail-value">New Delhi, India</div>
+        </div>
+
+        <div class="detail-row">
+          <div class="label">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Education</span>
+          </div>
+
+          <div class="detail-value">B.Tech in Computer Science</div>
+        </div>
+
+        <div class="detail-row">
+          <div class="label">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+          </div>
+
+          <div class="detail-value">sajrudinaalam@gmail.com</div>
+        </div>
+
+        <div class="resume-download">
+          <a href="asserts/Resume_SDE.pdf" download>
+            <i class="fa-solid fa-download"></i>
+            Download Resume
+          </a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
