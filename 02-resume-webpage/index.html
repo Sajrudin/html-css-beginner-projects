@@ -1,11 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume-Webpage</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <style>
+      
+    </style>
+  </head>
+
+  <body>
+    <div class="resume_container">
+      <header>
+        <button class="close"></button>
+        <button class="minimize"></button>
+        <button class="maximize"></button>
+      </header>
+
+      <main>
+        <aside class="leftsidebar">
+          <header>
+            <figure class="profile-image-container">
+              <img src="asserts/MyImage.jpg" height="100" alt="Profile Image" />
+            </figure>
+
+            <div class="profile-details">
+              <h1 class="profile-name">Sajrudin Aalam</h1>
+              <p class="profile-role">Software Engineer</p>
+            </div>
+          </header>
+
+          <dl class="contact-details">
+            <div class="contact-row">
+              <dt class="contact-label">
+                <i class="fa-regular fa-circle-user"></i>
+              </dt>
+              <dd class="contact-value">CONTACT</dd>
+            </div>
+
+            <div class="contact-row">
+              <dt class="contact-label">
+                <i class="fa-solid fa-envelope"></i>
+              </dt>
+              <dd class="value">sajrudinaalam@gmail.com</dd>
+            </div>
+
+            <div class="contact-row">
+              <dt class="contact-label">
+                <i class="fa-solid fa-phone"></i>
+              </dt>
+              <dd class="contact-value">+91 7889023629</dd>
+            </div>
+
+            <div class="contact-row">
+              <dt class="contact-label">
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+              </dt>
+              <dd class="contact-value">Jammu, India</dd>
+            </div>
+
+            <div class="contact-row">
+              <dt class="contact-label">
+                <i class="fa-solid fa-earth-africa"></i>
+              </dt>
+              <dd class="contact-value">sajrudin.dev</dd>
+            </div>
+
+            <div class="contact-row">
+              <dt class="contact-label">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </dt>
+              <dd class="contact-value">
+                linkedin.com/in/sajrudin-aalam-21b861287//
+              </dd>
+            </div>
+          </dl>
+
+          <section class="skill-details">
+            <dl class="skill-row">
+              <dt class="skill-label"><i class="fa-solid fa-gear"></i></dt>
+              <dd class="skill-value">SKILLS</dd>
+            </dl>
+            <ul class="skills">
+              <li>Python</li>
+              <li>Java</li>
+              <li>C++</li>
+              <li>SQL, PostgreSQL</li>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Git & Github</li>
+              <li>Machine Learning, Neural Networks</li>
+              <li>Problem Solving, Data Structure</li>
+            </ul>
+          </section>
+
+          <section class="eduaction-details">
+            <dl class="eduaction-row">
+              <dt class="education-label">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </dt>
+              <dd class="education-value">EDUCATION</dd>
+            </dl>
+            <p class="eduaction-bio">
+              <strong>B.Tech in Computer Science</strong>
+              <span class="college"
+                >Graphic Era Hill University, Dehradun, Uttarakhand</span
+              >
+            </p>
+          </section>
+        </aside>
+
+        <section class="main-content">
+          <article class="about-me">
+            <dl class="about-row">
+              <dt class="about-label">
+                <i class="fa-solid fa-circle-user"></i>
+              </dt>
+              <dd class="about-value">ABOUT ME</dd>
+            </dl>
+            <p>
+              Passionate frontend developer with a strong foundation in building
+              responsive and user-friendly web applications. I love turning
+              ideas into real-world products using modern technologies.
+            </p>
+          </article>
+
+          <article class="experience">
+            <dl class="experience-row">
+              <dt class="experience-label">
+                <i class="fa-solid fa-briefcase"></i>
+              </dt>
+              <dd class="experience-value">EXPERIENCE</dd>
+            </dl>
+            <div class="experience-role-1">
+              <span class="role-1-title">SALESFORCE DEVELOPER INTERN</span>
+              <span class="role-1-timeline">May 2025 - Aug 2025</span>
+              <span class="role-1-company">Salesforce</span>
+              <ul class="role-1 work-details">
+                <li>Developed automation using Apex.</li>
+                <li>Worked on lighteninng Web Tools along with Agentic AI.</li>
+                <li>
+                  Earned super badges by completing trailhead modules and
+                  challenges.
+                </li>
+              </ul>
+            </div>
+
+            <div class="experience-role-2">
+              <span class="role-2-title">ML ENGINEER INTERN</span>
+              <span class="role-2-timeline">Aug 2025 - Oct 2025</span>
+              <span class="role-2-company">GNCIPL</span>
+
+              <ul class="role-2 work-details">
+                <li>
+                  First 2 weeks learnt about supervised and unsupervised
+                  learning techniques.
+                </li>
+                <li>
+                  Developed a Fraudalent Transaction System which helps in
+                  detecting fraud transaction using Random Forest model.
+                </li>
+                <li>
+                  Also developed various demo classifier systems like Email
+                  Detection.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-list">
+            <dl class="project-row">
+              <dt class="project-label"><i class="fa-solid fa-folder"></i></dt>
+              <dd class="project-value">PROJECTS</dd>
+            </dl>
+
+            <div class="project1">
+              <div class="project1-row">
+                <div class="project1-label">
+                  <i class="fa-solid fa-house-flood-water"></i>
+                </div>
+                <div class="project1-title">
+                  Flood Evacuation Routing System
+                </div>
+              </div>
+              <div class="project1-tech">
+                HTML,CSS,JS, Leaflet.js, Python, FASTAPI
+              </div>
+              <p class="project1-detail">
+                A responsive flood evacuation routing system which uses
+                geospatial data as well as machine model to provide safe route
+                for evacuation during flood.
+              </p>
+            </div>
+
+            <div class="project2">
+              <div class="project2-row">
+                <div class="project2-label"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="project2-title">E-commerce Website</div>
+              </div>
+              <div class="project2-tech">React.js, CSS</div>
+              <p class="project2-detail">
+                A complete e-commerce frontend with product listing, cart and checkout UI.
+              </p>
+            </div>
+
+            <div class="project3">
+                <div class="project3-row">
+                    <div class="project3-label"></div>
+                    <div class="project3-title">Weather App</div>
+                </div>
+                <div class="project3-tech">JavaScript, API</div>
+                <p class="project3-detail">
+                    A weather application that shows real-time weather information using OpenWeather API.
+                </p>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
