@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    min-height: 100vh;
+    background-color: white;
+    font-family: system-ui, Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+.resume-container{
+    width: 80vw;
+    background-color: white;
+    border: 2px solid #eaecef;
+}
+
+.button-container{
+    background-color: #fcf8f8;
+    border: 2px solid #555;
+    border-radius: 0.3rem 0.3rem 0 0;
+    padding : 0.1rem 0 0.1rem 0.4rem;
+}
+
+button{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.close{
+    background-color: red;
+    padding-right: 0.1rem;
+}
+
+.minimize{
+    background-color: yellow;
+    padding-right: 0.1rem;
+}
+.maximize{
+    background-color: lightgreen;
+}
+
+main{
+    display: flex;
+    justify-content: flex-start;
+}
+.leftsidebar{
+    flex: 1;
+    background-color: #192a3c;
+    color: #eaeced;
+    font-size: 1rem;
+}
+.profile-container{
+    padding: 1rem;
+    margin: 0.5rem;
+}
+img{
+    height: 150px;
+    width: 150px;
+
+    border: 2px solid #192a3c;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 50%;
+}
+
+.profile-details {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.no-wrap{
+    white-space: nowrap;
+}
+.profile-name{
+    font-size:2rem;
+}
+.profile-role{
+    color: aqua;
+}
