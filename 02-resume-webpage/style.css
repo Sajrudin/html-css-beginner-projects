@@ -17,14 +17,15 @@ body{
 }
 
 .resume-container{
-    width: 80vw;
+    width: 70vw;
     background-color: white;
     border: 2px solid #eaecef;
+    border-radius: 0.3rem 0.3rem 0 0 ;
 }
 
 .button-container{
     background-color: #fcf8f8;
-    border: 2px solid #555;
+    border: 2px solid #eee;
     border-radius: 0.3rem 0.3rem 0 0;
     padding : 0.1rem 0 0.1rem 0.4rem;
 }
@@ -61,6 +62,11 @@ main{
 .profile-container{
     padding: 1rem;
     margin: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 img{
     height: 150px;
@@ -86,4 +92,239 @@ img{
 }
 .profile-role{
     color: aqua;
+}
+
+.contact-details{
+    border-top: 2px solid rgba(18, 18, 18, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+}
+
+.contact-details .heading, .skill-row{
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.contact-details .contact-row{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+}
+
+.skill-details{
+    border-top: 2px solid rgba(18, 18, 18, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.skill-row {
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.skills{
+    list-style: disc;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.education-details{
+    border-top: 2px solid rgba(18, 18, 18, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+}
+
+.education-row{
+    display: flex;
+    gap:10px;
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.education-bio .course{
+    font-weight: 600;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    
+
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.about-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 1.15rem;
+    font-weight: 700;
+
+    border-bottom: 2px solid rgba(18, 18, 18, 0.25);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.about-me p{
+    text-align: left;
+    padding-left: 1rem;
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   EXPERIENCE SECTION ONLY
+   ========================= */
+
+.experience {
+    position: relative;
+    margin-top: 10px;
+}
+
+/* Experience heading */
+.experience-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 1.15rem;
+    font-weight: 700;
+
+    border-bottom: 2px solid rgba(18, 18, 18, 0.25);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Both experience entries */
+.experience-role-1,
+.experience-role-2 {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 20px;
+
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+/* Vertical timeline line */
+.experience-role-1::before,
+.experience-role-2::before {
+    content: "";
+    position: absolute;
+
+    left: 7px;
+    top: 10px;
+    bottom: -22px;
+
+    width: 2px;
+    background-color: #d6e3f5;
+}
+
+/* Remove line after final experience */
+.experience-role-2::before {
+    bottom: 8px;
+}
+
+/* Timeline dots */
+.experience-role-1::after,
+.experience-role-2::after {
+    content: "";
+    position: absolute;
+
+    left: 3px;
+    top: 6px;
+
+    width: 10px;
+    height: 10px;
+
+    background-color: #3488f0;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px white;
+}
+
+/* Job titles */
+.role-1-title,
+.role-2-title {
+    grid-column: 1;
+    grid-row: 1;
+
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #192a3c;
+}
+
+/* Dates */
+.role-1-timeline,
+.role-2-timeline {
+    grid-column: 2;
+    grid-row: 1;
+
+    white-space: nowrap;
+    font-size: 0.8rem;
+    color: #354052;
+    text-align: right;
+}
+
+/* Company names */
+.role-1-company,
+.role-2-company {
+    grid-column: 1 / -1;
+
+    margin-top: 2px;
+    color: #3488f0;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Work-description lists */
+.experience .work-details {
+    grid-column: 1 / -1;
+
+    margin-top: 6px;
+    padding-left: 18px;
+
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #273444;
+}
+
+/* Space between bullet points */
+.experience .work-details li {
+    margin-bottom: 2px;
+}
+
+/* Responsive experience layout */
+@media (max-width: 700px) {
+    .experience-role-1,
+    .experience-role-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .role-1-timeline,
+    .role-2-timeline {
+        grid-column: 1;
+        grid-row: auto;
+
+        margin-top: 2px;
+        text-align: left;
+        white-space: normal;
+    }
+
+    .role-1-company,
+    .role-2-company {
+        margin-top: 3px;
+    }
 }
