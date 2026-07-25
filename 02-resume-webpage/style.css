@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-body{
+body {
     min-height: 100vh;
     background-color: white;
     font-family: system-ui, Arial, sans-serif;
@@ -16,50 +16,54 @@ body{
     padding: 0.2rem;
 }
 
-.resume-container{
+.resume-container {
     width: 70vw;
     background-color: white;
     border: 2px solid #eaecef;
-    border-radius: 0.3rem 0.3rem 0 0 ;
+    border-radius: 0.3rem 0.3rem 0 0;
 }
 
-.button-container{
+.button-container {
     background-color: #fcf8f8;
     border: 2px solid #eee;
     border-radius: 0.3rem 0.3rem 0 0;
-    padding : 0.1rem 0 0.1rem 0.4rem;
+    padding: 0.1rem 0 0.1rem 0.4rem;
 }
 
-button{
+button {
     height: 12px;
     width: 12px;
     border-radius: 50%;
     border: 1px solid black;
 }
-.close{
+
+.close {
     background-color: red;
     padding-right: 0.1rem;
 }
 
-.minimize{
+.minimize {
     background-color: yellow;
     padding-right: 0.1rem;
 }
-.maximize{
+
+.maximize {
     background-color: lightgreen;
 }
 
-main{
+main {
     display: flex;
     justify-content: flex-start;
 }
-.leftsidebar{
+
+.leftsidebar {
     flex: 1;
     background-color: #192a3c;
     color: #eaeced;
     font-size: 1rem;
 }
-.profile-container{
+
+.profile-container {
     padding: 1rem;
     margin: 0.5rem;
 
@@ -68,7 +72,8 @@ main{
     justify-content: center;
     text-align: center;
 }
-img{
+
+img {
     height: 150px;
     width: 150px;
 
@@ -84,17 +89,20 @@ img{
     text-align: center;
     flex-direction: column;
 }
-.no-wrap{
+
+.no-wrap {
     white-space: nowrap;
 }
-.profile-name{
-    font-size:2rem;
+
+.profile-name {
+    font-size: 2rem;
 }
-.profile-role{
+
+.profile-role {
     color: aqua;
 }
 
-.contact-details{
+.contact-details {
     border-top: 2px solid rgba(18, 18, 18, 0.25);
     display: flex;
     flex-direction: column;
@@ -102,18 +110,20 @@ img{
     margin: 15px;
 }
 
-.contact-details .heading, .skill-row{
+.contact-details .heading,
+.skill-row {
     font-size: large;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.contact-details .contact-row{
+
+.contact-details .contact-row {
     display: flex;
     gap: 10px;
     justify-content: start;
 }
 
-.skill-details{
+.skill-details {
     border-top: 2px solid rgba(18, 18, 18, 0.25);
     display: flex;
     flex-direction: column;
@@ -127,13 +137,13 @@ img{
     padding-left: 10px;
 }
 
-.skills{
+.skills {
     list-style: disc;
     padding-left: 15px;
     margin-left: 10px;
 }
 
-.education-details{
+.education-details {
     border-top: 2px solid rgba(18, 18, 18, 0.25);
     display: flex;
     flex-direction: column;
@@ -141,29 +151,29 @@ img{
     margin: 15px;
 }
 
-.education-row{
+.education-row {
     display: flex;
-    gap:10px;
+    gap: 10px;
     font-size: large;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.education-bio .course{
+.education-bio .course {
     font-weight: 600;
 }
 
-.main-content{
+.main-content {
     display: flex;
     flex-direction: column;
-    
+
 
     margin: 20px;
     padding: 10px;
 }
 
 
-.about-row{
+.about-row {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -176,7 +186,7 @@ img{
     margin-bottom: 15px;
 }
 
-.about-me p{
+.about-me p {
     text-align: left;
     padding-left: 1rem;
     margin-bottom: 10px;
@@ -308,6 +318,7 @@ img{
 
 /* Responsive experience layout */
 @media (max-width: 700px) {
+
     .experience-role-1,
     .experience-role-2 {
         grid-template-columns: 1fr;
