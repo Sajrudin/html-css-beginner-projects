@@ -328,3 +328,166 @@ img{
         margin-top: 3px;
     }
 }
+
+
+
+/* =========================
+   PROJECT SECTION
+   ========================= */
+
+.project-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 1.15rem;
+    font-weight: 700;
+
+    border-bottom: 2px solid rgba(18, 18, 18, 0.25);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* ---------- Project 1 ---------- */
+
+.project1 {
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.project1-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.project1-label {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e8f0ff;
+    border-radius: 8px;
+
+    color: #2563eb;
+}
+
+.project1-title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.project1-tech {
+    margin: 8px 0 6px 54px;
+
+    color: #2563eb;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.project1-detail {
+    margin-left: 54px;
+
+    color: #4b5563;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+/* ---------- Project 2 ---------- */
+
+.project2 {
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.project2-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.project2-label {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e8f0ff;
+    border-radius: 8px;
+
+    color: #2563eb;
+}
+
+.project2-title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.project2-tech {
+    margin: 8px 0 6px 54px;
+
+    color: #2563eb;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.project2-detail {
+    margin-left: 54px;
+
+    color: #4b5563;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+/* ---------- Project 3 ---------- */
+
+.project3 {
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.project3-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.project3-label {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e8f0ff;
+    border-radius: 8px;
+
+    color: #2563eb;
+}
+
+.project3-title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.project3-tech {
+    margin: 8px 0 6px 54px;
+
+    color: #2563eb;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.project3-detail {
+    margin-left: 54px;
+
+    color: #4b5563;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
