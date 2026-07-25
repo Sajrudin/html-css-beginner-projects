@@ -11,7 +11,7 @@ The goal of this repository is to document my learning journey, improve my front
 | No. | Project | Status |
 |-----|---------|--------|
 | 01 | Profile Card | ✅ Completed |
-| 02 | Resume Website | 🚧 In Progress |
+| 02 | Resume Website | ✅ Completed  |
 
 
 ---
