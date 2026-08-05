@@ -12,6 +12,7 @@ The goal of this repository is to document my learning journey, improve my front
 |-----|---------|--------|
 | 01 | Profile Card | ✅ Completed |
 | 02 | Resume Website | ✅ Completed  |
+| 03 | Food Banner | ✅ Completed  |
 
 
 ---
@@ -31,6 +32,7 @@ HTML_CSS_Beginner_Project/
 ├── README.md
 ├── 01-profile-card/
 ├── 02-resume-website/
+└── 03-food-banner/
 └── ...
 ```
 
@@ -73,7 +75,7 @@ These projects are created for **practice and learning purposes**. As I continue
 
 - ✅ HTML Basics
 - ✅ CSS Basics
-- 🚧 Flexbox
+- ✅ Flexbox
 - ⏳ CSS Grid
 - ⏳ Responsive Design
 - ⏳ CSS Animations
