@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+main{
+    width: 1174px;
+    height: 980px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 169px;
+    gap: 16px;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+.side-image{
+    width: 120px;
+    height: 150px;
+}
+
+.center-content img{
+    height: 739px;
+    width: 591px;
+}
+
+.description h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #29AA04;
+}
+.description h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+
+}
+.tagline{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgba(0,0,0,0.5);
+}
+.price{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(0,0,0,1);
+}
+.price-description{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(128,128,128,1);
+    align-items: center;
+}
+.shoe-variant{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.shoe-variant img{
+    width: 98.63px;
+    height: 98.63px;
+}
+
+.size-chart{
+    
+}
