@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat User Interface</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <main>
@@ -11,7 +12,7 @@
         <header>
           <h1>DSC Chat UI</h1>
           <div class="button-container">
-            <button type="button">+ New Chat</button>
+            <button type="button"> <img src="./images/plus-icon.png" alt=""> <span>New Chat</span></button>
             <div class="search-icon">
               <img src="./images/search-icon.png" alt="search-icon" />
             </div>
@@ -35,7 +36,7 @@
             <div class="chat-icon">
               <img src="./images/message-icon.png" alt="message-icon" />
             </div>
-            <p>How to set up linux in the system...</p>
+            <p>How to set up linux in the system</p>
           </div>
           <div class="chats">
             <div class="chat-icon">
@@ -47,19 +48,19 @@
             <div class="chat-icon">
               <img src="./images/message-icon.png" alt="message-icon" />
             </div>
-            <p>Help in developing a python project...</p>
+            <p>Help in developing a python project</p>
           </div>
           <div class="chats">
             <div class="chat-icon">
               <img src="./images/message-icon.png" alt="message-icon" />
             </div>
-            <p>Machine Learning and Deep Learning ...</p>
+            <p>Machine Learning and Deep Learning</p>
           </div>
           <div class="chats">
             <div class="chat-icon">
               <img src="./images/message-icon.png" alt="message-icon" />
             </div>
-            <p>How to resolve segmentation fault in a C Program...</p>
+            <p>How to resolve segmentation fault in a C Program</p>
           </div>
           <div class="chats">
             <div class="chat-icon">
@@ -84,7 +85,7 @@
 
       <section class="chat-container">
         <section class="response-section">
-          <header>
+          <header class="user-message">
             <img src="./images/avatar.png" alt="Avatar" />
             <h3>How to become expert frontend developer</h3>
           </header>
@@ -131,7 +132,7 @@
         </section>
 
         <div class="prompt-box">
-            <p>Ask Anything, from AI bot...</p>
+            <input type="text" placeholder="Ask Anything, from AI bot...">
             <button type="button" class="submit-icon"><img src="./images/send-icon.png" alt="submit"></button>
         </div>
       </section>
